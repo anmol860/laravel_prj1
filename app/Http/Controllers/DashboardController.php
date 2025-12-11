@@ -35,6 +35,6 @@ class DashboardController extends Controller
 
         auth()->user()->transactions()->create($data);
 
-        return redirect('/');
+        return redirect('/dashboard');
     }
 }
